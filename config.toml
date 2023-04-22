@@ -13,10 +13,10 @@ style = "github-dark"
 
 [params]
   author = "Swayam Chaulagain"
-  info = ""
+  info = "Maths and Physics Enthusiast"
   description = ""
   keywords = "blog,developer,personal"
-  avatarurl = "images/profilepic.jpg"
+  avatarurl = "images/mypic.jpg"
   #gravatar = "john.doe@example.com"
 
   favicon_32 = "/img/favicon-32x32.png"
@@ -44,24 +44,25 @@ style = "github-dark"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/mathswayam/"
 [[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
-  weight = 2
-  url = "https://gitlab.com/johndoe/"
+   name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 1
+  url = "https://linkedin.com/in/swayam-chaulagain-a28b97201"
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://twitter.com/"
 
 # Menu links
 [[menu.main]]
   name = "Blog"
-  weight = 1
+  weight = 2
   url  = "posts/"
 [[menu.main]]
   name = "CV"
-  weight = 2
-  url = "https://www.google.com"
+  weight = 1
+  url = "pdfs/swayam_cv.pdf"
+  target = "_blank"
